@@ -1,0 +1,15 @@
+.product_card {
+  margin: 4rem;
+  padding-left: 2rem;
+  border: 1px solid black;
+}
+
+.product_card__info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.product_card__info--price {
+  font-size: 3rem;
+}

@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom"
+import { StyledLink } from "./StyledNavBar"
 
 function NavBar() {
   return (
     <div>
-      <Link to="/">Home</Link>
-      <Link to="/shop">Shop</Link>
-      <Link to="/contact">Contact</Link>
+      <StyledLink to="/">Home</StyledLink>
+      <StyledLink to="/shop">Shop</StyledLink>
+      <StyledLink to="/contact">Contact</StyledLink>
     </div>
   )
 }
